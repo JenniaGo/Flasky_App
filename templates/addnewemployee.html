@@ -52,22 +52,22 @@
               <div class="table-responsive-lg caption-top">
                 <caption><h3>ADD NEW EMPLOYEES</h3></caption>
                 <hr>
-                <form class="p-3">
+                <form class="p-3" action="/addnewemployee" method="POST">
                     <div class="mb-2">
                       <label for="name" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="name">
+                      <input type="text" class="form-control" id="name" name = "name">
                     </div>
                     <div class="mb-2">
                       <label for="email" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="email">
+                      <input type="text" class="form-control" id="email" name = "email">
                     </div>
                     <div class="mb-2">
-                        <label for="name" class="form-label">Phone</label>
-                        <input type="text" class="form-control" id="name">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="text" class="form-control" id="phone" name = "phone">
                       </div>
                       <div class="mb-2">
-                        <label for="email" class="form-label">Address</label>
-                        <input type="email" class="form-control" id="email">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="address" name="address">
                       </div>
                     <button type="submit" class="btn text-light m-3" style="background-color:rgb(0, 75, 93);">Add Employee</button>
                   </form>
